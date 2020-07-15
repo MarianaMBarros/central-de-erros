@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './styles.css';
 
-function Login() {
+const Login = () => {
   return (
     <div className="App">
       <h1>Sign in to your Account</h1>
