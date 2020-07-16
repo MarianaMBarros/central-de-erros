@@ -5,7 +5,7 @@ import Register from './pages/register';
 import Forgot from './pages/forgot';
 
 
-function App() {
+const App = () => {
   return (
     <Switch>
       <Route path="/login">

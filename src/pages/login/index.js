@@ -4,7 +4,7 @@ import './styles.css';
 
 const Login = () => {
   return (
-    <div className="App">
+    <div className="containerLogin">
       <h1>Sign in to your Account</h1>
       <div>
         <input type="text" placeholder="e-mail" />
