@@ -1,32 +1,20 @@
-import React, { useState } from 'react';
-import { Link } from "react-router-dom";
-import { Input } from "../../components/components"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Input, Button } from '../../components/components'
 import './styles.css';
 
 function Register() {
-  const [email, setEmail] = useState("")
   return (
-    <div className="containerRegister">
-      <h1>Create Your Account</h1>
+    <div className='containerRegister'>
+      <img src='/images/Picture2.png' />
+      <h1>Cadastro</h1>
       <div>
-        <Input
-          type="email"
-          className="email"
-          placeholder="e-mail"
-          onChangeEmail={(e) => setEmail(e.target.value)}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <Input
-          type="password"
-          className="password"
-          placeholder="password"
-          onChangeEmail={(e) => setEmail(e.target.value)}
-          onChange={(e) => setEmail(e.target.value)}
-        />
+        <Input type='email' className='email' placeholder='Email*' />
+        <Input type='password' className='password' placeholder='Senha*' />
       </div>
-      <button>Create Account</button>
-      <p>Already have an account?</p>
-      <Link to="/login">Sign in</Link>
+      <Button className='button' name='Cadastre-se' />
+      <Link className='account' to='/login'>Já possuo conta</Link>
+
     </div>
   );
 }

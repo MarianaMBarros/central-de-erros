@@ -1,13 +1,12 @@
 span,
 h1, 
-.register,
-.forgot{
+.link{
   font-family: 'Roboto Mono', monospace;
 }
 
 h1,
 span,
-.forgot{  
+.link{  
   color:#03045E;
 }
 
@@ -15,8 +14,7 @@ h1 {
   margin-top: 40px;
   font-size: 40px;
 }
-
-.containerLogin {
+.containerForgot {
   width: 80vw;
   margin: auto;
   display: flex;
@@ -26,15 +24,11 @@ h1 {
   align-content: center;
 }
 
-.forgot{
+.link{
   margin-top: 5px;
   font-size: 12px;
 }
 
-.forgot:hover{
+.link:hover{
   transform: scale(1.1);
-}
-
-.register:hover{
-  background-color: #0077B6;
 }
