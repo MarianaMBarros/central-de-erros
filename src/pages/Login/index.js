@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Input, Button } from '../../components/components'
+import { InputText, Button } from '../../components/components'
 import logo from '../../img/logo2.png'
 import '../styles.css';
 
@@ -10,8 +10,8 @@ const Login = () => {
       <img src={logo} />
       <h1>Login</h1>
       <div>
-        <Input type='email' placeholder='Email*' />
-        <Input type='password' placeholder='Senha*' />
+        <InputText type='email' placeholder='Email*' />
+        <InputText type='password' placeholder='Senha*' />
       </div>
       <Link className='forgot' to='/forgot'>Esqueci minha Senha</Link>
       <Button className='button' name='Entrar' to='/home' />

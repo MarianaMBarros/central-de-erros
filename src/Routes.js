@@ -1,9 +1,9 @@
 import React from 'react';
 import { Switch, Route, } from "react-router-dom";
-import Login from './pages/login';
-import Register from './pages/register';
-import Forgot from './pages/forgot';
-import Home from './pages/home';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Forgot from './pages/Forgot';
+import Home from './pages/Home';
 
 
 const App = () => {
