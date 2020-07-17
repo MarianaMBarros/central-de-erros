@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Input, Button } from '../../components/components'
-import './styles.css';
+import logo from '../../img/logo2.png'
+import '../styles.css';
 
 const Login = () => {
   return (
-    <div className='containerLogin'>
-      <img src='./img/logo.png' />
+    <div className='container'>
+      <img src={logo} />
       <h1>Login</h1>
       <div>
         <Input type='email' placeholder='Email*' />

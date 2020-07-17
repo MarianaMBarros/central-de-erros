@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Input, Button } from '../../components/components'
-import './styles.css';
+import logo from '../../img/logo2.png'
+import '../styles.css';
 
 function Register() {
   return (
-    <div className='containerRegister'>
-      <img src='/images/Picture2.png' />
+    <div className='container'>
+      <img src={logo} />
       <h1>Cadastro</h1>
       <div>
         <Input type='email' className='email' placeholder='Email*' />
