@@ -14,7 +14,7 @@ const Login = () => {
         <Input type='password' placeholder='Senha*' />
       </div>
       <Link className='forgot' to='/forgot'>Esqueci minha Senha</Link>
-      <Button className='button' name='Entrar' />
+      <Button className='button' name='Entrar' to='/home' />
       <span>Não possui uma conta? <Link className='register' to='/register'>Cadastre-se</Link></span>
     </div>
   );
