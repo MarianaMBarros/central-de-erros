@@ -6,7 +6,7 @@ import excluir from '../../img/excluir.png';
 import exibir from '../../img/exibir.png';
 import './styles.css';
 
-function Home() {
+const Home = () => {
   return (
     <>
       <header>

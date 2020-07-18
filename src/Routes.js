@@ -4,6 +4,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Forgot from './pages/Forgot';
 import Home from './pages/Home';
+import Error from './pages/Error';
 
 
 const App = () => {
@@ -17,6 +18,9 @@ const App = () => {
       </Route>
       <Route path="/home">
         <Home />
+      </Route>
+      <Route path="/error">
+        <Error />
       </Route>
       <Route path="/">
         <Login />
