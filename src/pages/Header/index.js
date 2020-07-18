@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 
-function Forgot() {
+const Header = () => {
   return (
     <>
       <header>
@@ -12,3 +12,4 @@ function Forgot() {
     </>
   )
 }
+export default Header;

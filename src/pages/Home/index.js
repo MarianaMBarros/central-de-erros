@@ -1,6 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { InputText, Button } from '../../components/components'
+import { InputText, Button, Checkbox } from '../../components/components';
+import lupa from '../../img/lupa.png';
+import arquivar from '../../img/arquivar.png';
+import excluir from '../../img/excluir.png';
+import exibir from '../../img/exibir.png';
 import './styles.css';
 
 function Home() {
@@ -33,16 +36,16 @@ function Home() {
             <option>Descrição</option>
             <option>Origem</option>
           </select>
-          <InputText type='text' placeholder='Pesquisar' />
+          <InputText type='text' placeholder='Pesquisar' /> <img className='img' src={lupa} alt='lupa' />
         </div>
         <div>
-          <Button className='button' name='Arquivar' />
-          <Button className='button' name='Apagar' />
+          <Button className='button' name='Arquivar' /> <img className='img' src={arquivar} alt='arquivar' />
+          <Button className='button' name='Apagar' /> <img className='img' src={excluir} alt='excluir' />
         </div>
         <div>
           <table>
             <tr>
-              <th><InputText type='checkbox' /></th>
+              <th>< Checkbox type='checkbox' /></th>
               <th> Nivel </th>
               <th> Origem </th>
               <th>Data</th>
@@ -50,8 +53,12 @@ function Home() {
               <th>Eventos</th>
             </tr>
             <tr>
-              <th><InputText type='checkbox' /></th>
+              <th>< Checkbox type='checkbox' /></th>
               <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th><img className='img' src={exibir} alt='exibir' /> Exibir</th>
             </tr>
           </table>
         </div>

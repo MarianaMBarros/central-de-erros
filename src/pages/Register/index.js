@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { InputText, Button } from '../../components/components'
-import logo from '../../img/logo2.png'
+import { InputText, Button } from '../../components/components';
+import logo from '../../img/logo2.png';
 
 import '../styles.css';
 
 function Register() {
   return (
     <div className='container'>
-      <img src={logo} />
+      <img src={logo} alt='logo' />
       <h1>Cadastro</h1>
       <div>
+        <InputText type='text' placeholder='Nome*' />
         <InputText type='email' placeholder='Email*' />
         <InputText type='password' placeholder='Senha*' />
       </div>
