@@ -4,6 +4,7 @@ import lupa from '../../img/lupa.png';
 import arquivar from '../../img/arquivar.png';
 import excluir from '../../img/excluir.png';
 import exibir from '../../img/exibir.png';
+import user from '../../img/user.png';
 import './styles.css';
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
       <header>
         <span>Bem Vindo: Mariana  </span>
         <span>Seu Token é: chsguysdgfygs </span>
-        <button>icone</button>
+        <img className='img' src={user} alt='user' />
       </header>
       <div>
         <div class="dropdown-menu">
@@ -39,8 +40,8 @@ const Home = () => {
           <InputText type='text' placeholder='Pesquisar' /> <img className='img' src={lupa} alt='lupa' />
         </div>
         <div>
-          <Button className='button' name='Arquivar' /> <img className='img' src={arquivar} alt='arquivar' />
-          <Button className='button' name='Apagar' /> <img className='img' src={excluir} alt='excluir' />
+          <span><img className='img' src={arquivar} alt='arquivar' /> Arquivar</span>
+          <span><img className='img' src={excluir} alt='excluir' /> Excluir</span>
         </div>
         <div>
           <table>

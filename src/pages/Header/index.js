@@ -1,4 +1,5 @@
 import React from 'react';
+import user from '../../img/user.png';
 import './styles.css';
 
 const Header = () => {
@@ -7,7 +8,7 @@ const Header = () => {
       <header>
         <span>Bem Vindo: Mariana  </span>
         <span>Seu Token é: chsguysdgfygs </span>
-        <button>icone</button>
+        <img className='img' src={user} alt='user' />
       </header>
     </>
   )
