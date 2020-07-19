@@ -1,0 +1,33 @@
+header{
+  background-color:#00B4D8; 
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;  
+}
+
+.img-header{
+  width: 50px;
+  height: 50px;
+}
+
+.img-logo-header{
+  width: 100px;
+  height: 60px;
+}
+
+.div-header{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.div-header-logo{  
+  display: flex;
+}
+
+.header{
+color: #03045E;
+}

@@ -1,17 +1,10 @@
 * {
-  font-family: 'Helvetica';
-  font-weight: 300;
+  font-family: 'Roboto Mono';
   margin: 0;
   padding: 0;
-  outline: 0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: rgb(219, 249, 255);
+  background: rgb(234, 250, 253);
 }
 

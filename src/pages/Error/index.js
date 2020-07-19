@@ -1,17 +1,13 @@
 import React from 'react';
-import { Button } from '../../components/components';
-import arquivar from '../../img/arquivar.png';
-import excluir from '../../img/excluir.png';
+import Header from '../Header/index';
+import file from '../../img/file.png';
+import delet from '../../img/delete.png';
 
 const Error = () => {
   return (
     <>
-      <header>
-        <span>Bem Vindo: Mariana  </span>
-        <span>Seu Token é: chsguysdgfygs </span>
-        <button>icone</button>
-      </header>
-      <Button className='button' name='Voltar' />
+      <Header />
+      <div><span>Voltar</span></div>
       <span>Erro no 123.3.5.6 em 24/05/2019 10:20</span>
       <span>Erro</span>
       <div>
@@ -27,8 +23,8 @@ const Error = () => {
         <span>Token: 12468654dcbn</span>
       </div>
       <div>
-        <Button className='button' name='Arquivar' /> <img className='img' src={arquivar} alt='arquivar' />
-        <Button className='button' name='Apagar' /> <img className='img' src={excluir} alt='excluir' />
+        <span><img className='img-icon' src={file} alt='file' /> Arquivar</span>
+        <span><img className='img-icon' src={delet} alt='delet' /> Excluir</span>
       </div>
     </>
   )
