@@ -23,7 +23,8 @@ const Login = () => {
       </div>
       <Link className='forgot' to='/forgot'>Esqueci minha Senha</Link>
       <Button className='button' name='Entrar' onClick={onClickLogin} />
-      <span> Não possui uma conta? <Link className='register' to='/register'>Cadastre-se</Link></span>
+      <span> Não possui uma conta? </span>
+      <Link className='register' to='/register'>Cadastre-se</Link>
     </div>
   );
 }

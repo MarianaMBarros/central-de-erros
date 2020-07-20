@@ -28,14 +28,10 @@ h1 {
 
 .forgot:hover,
 .link:hover,
-.account:hover {
+.account:hover,
+.register:hover{
   transform: scale(1.1);
 }
-
-.register:hover{
-  background-color: #0077B6;
-}
-
 .img-logo{
   width: 350px;
   height: 200px;

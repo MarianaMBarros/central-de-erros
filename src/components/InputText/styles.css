@@ -1,7 +1,7 @@
-.input{
-  background-color: transparent;
+/* .input{
+   background-color: transparent;
   border: none;
-  margin-top: 15px;
+  
   display: flex;
   flex-direction: column;  
   font-family: 'Arvo';
@@ -9,6 +9,34 @@
 	height: 35px;
   padding-left: 10px;
   border-bottom: 1px solid #CCC;
-  color: #555;
+  color: #555; 
+} */
+
+.input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: #CAF0F8;
+  width: 400px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 25px auto 10px auto;
+  display: block;  
+  font-size: 15px;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  font-weight: 00;
+}
+
+.input:hover {
+  background-color: #90E0EF;
+}
+
+.input:focus {
+  background-color: white;
+  color: #03045E;
+  width: 300px;  
 }
 
