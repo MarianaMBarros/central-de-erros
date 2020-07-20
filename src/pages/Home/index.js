@@ -3,7 +3,6 @@ import { InputText, Checkbox } from '../../components/components';
 import Header from '../Header/index';
 import file from '../../img/file.png';
 import delet from '../../img/delete.png';
-import display from '../../img/display.png';
 import './styles.css';
 
 const Home = () => {
@@ -41,20 +40,40 @@ const Home = () => {
         <div className='tbl-error'>
           <table>
             <tr>
-              <th>< Checkbox type='checkbox' /></th>
+              <th>< Checkbox /></th>
               <th>Nivel</th>
               <th>Origem</th>
               <th>Data</th>
               <th>Descrição</th>
               <th>Eventos</th>
+              <th></th>
             </tr>
             <tr>
-              <th>< Checkbox type='checkbox' /></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th></th>
-              <th className='span-icon'><img className='img-icon' src={display} alt='display' /> Exibir</th>
+              <td>< Checkbox /></td>
+              <td>alinha o item ao topo da sua linha. Quando em colunas, alinha o item ao início (esquerda) da coluna.</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><span className='th-icon'>Exibir</span></td>
+            </tr>
+            <tr>
+              <td>< Checkbox /></td>
+              <td>alinha o item ao topo da sua linha. Quando em colunas, alinha o item ao início (esquerda) da coluna.</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><span className='th-icon'>Exibir</span></td>
+            </tr>
+            <tr>
+              <td>< Checkbox /></td>
+              <td>alinha o item ao topo da sua linha. Quando em colunas, alinha o item ao início (esquerda) da coluna.</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><span className='th-icon'>Exibir</span></td>
             </tr>
           </table>
         </div>

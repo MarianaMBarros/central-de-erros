@@ -10,8 +10,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: auto; 
-  padding: auto; 
 }
 
 .container-home{
@@ -24,8 +22,9 @@
 
 }
 select{
+  margin-top: 15px;
   width: 200px;
-  height: 30px;
+  height: 40px;
   color: #03045E;
   background-color: #CAF0F8;
   border-radius: 3px;
@@ -41,17 +40,15 @@ select{
   margin-right: 5px;
   width: 22px;
   height: 22px;
-  transform: rotateY(180deg);
 }
 
 .span-icon{
-  display: flex;
   margin:30px 30px;
   background-color: #CAF0F8; 
+  border-radius: 5px;
 }
 .span-icon:hover{
   background-color: #90E0EF;  
-
 }
 
 .search-input { 
@@ -80,25 +77,45 @@ select{
 }
 
 table{
-  width:100%;
+  width:95%;
   table-layout: fixed;
+  margin: 15px 35px;  
 }
+
 .tbl-error{
+  margin: 0 35px;
   background-color:#90E0EF; 
-  border: 1px solid rgba(255,255,255,0.3); 
+  border:  2px solid rgba(255,255,255,0.3); 
  }
-/* .tbl-content{
-  height:300px;
-  overflow-x:auto;
-  margin-top: 0px;
-  border: 1px solid rgba(255,255,255,0.3);
-} */
+
 th{
-  padding: 15px 15px;
+  padding: 10px;
   text-align: left;
-  font-weight: 500;
   font-size: 20px;
   color:#03045E;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 2px solid rgba(255,255,255,0.3);
 }
+th:first-child{
+  width: 40px;
+}
+th:last-child{
+width: 105px;
+}
+.th-icon{
+   background-color: #CAF0F8; 
+ }
+
+ .th-icon:hover{
+  background-color: rgb(113, 206, 223); 
+ }
+
+ td{
+  padding: 10px;
+  font-size: 15px;
+  color:#03045E;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
+ }
+
+ tr{
+   padding: 150px;
+ }

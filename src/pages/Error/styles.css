@@ -1,0 +1,48 @@
+.div-back,
+.div-error{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.div-error{
+  justify-content: flex-end;  
+}
+
+.img-icon{  
+  margin: 5px 5px 5px 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.span-icon{ 
+  width: 110px;
+  display: flex;
+  margin:30px 50px;
+  background-color: #CAF0F8; 
+  border-radius: 5px;
+}
+.span-icon:hover{
+  background-color: #90E0EF;  
+}
+
+.title-error{
+  margin:auto 50px 50px 50px;  
+}
+
+.container-error{
+  background-color:#90E0EF;   ;
+  display: flex;
+  align-items: center;  
+  align-content: flex-start;
+  justify-content: space-around;
+  height: 250px;
+}
+
+.div-situation{
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+  margin-top: 10px;
+}
