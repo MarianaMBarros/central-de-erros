@@ -33,13 +33,34 @@ select{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin:30px 30px;
+  margin:30px 50px;
 }
 
 .img-icon{  
   margin-right: 5px;
   width: 22px;
   height: 22px;
+}
+
+.img-icon-arrow{
+  margin: auto 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 200px;
+}
+.img-icon-arrow:hover{  
+  background-color: #CAF0F8; 
+}
+
+.span-icon-home{
+  display: flex;
+  margin-bottom: 15px;
+}
+.div-pages-home{
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin:15px 50px 10px;
 }
 
 .span-icon{

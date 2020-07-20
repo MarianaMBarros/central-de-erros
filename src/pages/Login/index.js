@@ -17,10 +17,8 @@ const Login = () => {
     <div className='container'>
       <img src={logo} alt='logo' className='img-logo' />
       <h1>Login</h1>
-      <div>
-        <InputText type='email' placeholder='Email*' value={email} onChange={e => setEmail(e.target.value)} />
-        <InputText type='password' placeholder='Senha*' value={password} onChange={e => setPassword(e.target.value)} />
-      </div>
+      <InputText type='email' placeholder='Email*' value={email} onChange={e => setEmail(e.target.value)} />
+      <InputText type='password' placeholder='Senha*' value={password} onChange={e => setPassword(e.target.value)} />
       <Link className='forgot' to='/forgot'>Esqueci minha Senha</Link>
       <Button className='button' name='Entrar' onClick={onClickLogin} />
       <span> Não possui uma conta? </span>

@@ -9,11 +9,9 @@ function Register() {
     <div className='container'>
       <img src={logo} alt='logo' className='img-logo' />
       <h1>Cadastro</h1>
-      <div>
-        <InputText type='text' placeholder='Nome*' />
-        <InputText type='email' placeholder='Email*' />
-        <InputText type='password' placeholder='Senha*' />
-      </div>
+      <InputText type='text' placeholder='Nome*' />
+      <InputText type='email' placeholder='Email*' />
+      <InputText type='password' placeholder='Senha*' />
       <Button className='button' name='Cadastre-se' />
       <Link className='account' to='/login'>Já tenho conta</Link>
     </div>

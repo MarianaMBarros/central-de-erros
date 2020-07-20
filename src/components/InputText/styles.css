@@ -13,7 +13,6 @@
   font-size: 15px;
   -webkit-transition-duration: 0.25s;
   transition-duration: 0.25s;
-  font-weight: 00;
 }
 
 .input:hover {
@@ -23,6 +22,6 @@
 .input:focus {
   background-color: white;
   color: #03045E;
-  width: 300px;  
+  width: 500px;  
 }
 

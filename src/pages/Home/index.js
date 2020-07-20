@@ -3,6 +3,8 @@ import { InputText, Checkbox } from '../../components/components';
 import Header from '../Header/index';
 import file from '../../img/file.png';
 import delet from '../../img/delete.png';
+import arrow from '../../img/arrow.png';
+import arrowRight from '../../img/arrowRight.png';
 import './styles.css';
 
 const Home = () => {
@@ -77,6 +79,14 @@ const Home = () => {
             </tr>
           </table>
         </div>
+        <div className='div-pages-home'>
+          <span className='span-icon-home'> 0 - 10
+            <img className='img-icon-arrow' src={arrow} alt='arrow' />
+            <img className='img-icon-arrow' src={arrowRight} alt='arrowRight' />
+          </span>
+
+        </div>
+
       </div>
     </>
   );
