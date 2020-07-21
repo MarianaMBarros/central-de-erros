@@ -46,9 +46,11 @@ select{
   margin: auto 10px;
   width: 15px;
   height: 15px;
-  border-radius: 200px;
+  border-radius: 100px;
 }
-.img-icon-arrow:hover{  
+.img-icon-arrow:hover{ 
+  width: 16px;
+  height: 16px;
   background-color: #CAF0F8; 
 }
 
@@ -122,12 +124,10 @@ th:first-child{
 th:last-child{
 width: 105px;
 }
-.th-icon{
-   background-color: #CAF0F8; 
- }
 
- .th-icon:hover{
-  background-color: rgb(113, 206, 223); 
+ .th-icon:hover{  
+  background-color: #CAF0F8;  
+  color: #0077b6;
  }
 
  td{

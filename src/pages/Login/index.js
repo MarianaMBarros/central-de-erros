@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { InputText, Button } from '../../components/components';
 import logo from '../../img/logo.png';
 import '../styles.css';
 
 const Login = () => {
-
+  const history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const onClickLogin = () => {
-    console.log(email, password);
+    history.push("/home")
   }
 
   return (

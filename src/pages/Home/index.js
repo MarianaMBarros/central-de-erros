@@ -6,8 +6,14 @@ import delet from '../../img/delete.png';
 import arrow from '../../img/arrow.png';
 import arrowRight from '../../img/arrowRight.png';
 import './styles.css';
+import { useHistory } from 'react-router-dom';
 
 const Home = () => {
+  const history = useHistory();
+
+  const onClickDisplay = () => {
+    history.push("/error")
+  }
   return (
     <>
       <Header />
@@ -57,25 +63,7 @@ const Home = () => {
               <td></td>
               <td></td>
               <td></td>
-              <td><span className='th-icon'>Exibir</span></td>
-            </tr>
-            <tr>
-              <td>< Checkbox /></td>
-              <td>alinha o item ao topo da sua linha. Quando em colunas, alinha o item ao início (esquerda) da coluna.</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span className='th-icon'>Exibir</span></td>
-            </tr>
-            <tr>
-              <td>< Checkbox /></td>
-              <td>alinha o item ao topo da sua linha. Quando em colunas, alinha o item ao início (esquerda) da coluna.</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td><span className='th-icon'>Exibir</span></td>
+              <td><span className='th-icon' onClick={onClickDisplay} >Exibir</span></td>
             </tr>
           </table>
         </div>
