@@ -1,4 +1,4 @@
-## Central de Erros 
+# Central de Erros 
 
 **Desafio final Aceleração Dev C# - Codenation apoiado pela Stone**
 
@@ -23,6 +23,16 @@ Link de Acesso: https://errorcenter.z20.web.core.windows.net/login
 ##  Clonar Repositório 
 ``` $ git clone git@github.com:MarianaMBarros/central-de-erros.git```
 
+## Implementações Futuras  
+### Backend			
+- Arquivar em Lote
+- Excluir em Lote 
+- Testes
+
+### Front-End
+- Responsividade 
+- Criação de Menu  
+- Testes de Usabilidade
 
 Agradecimentos    
 [Codenation](https://www.codenation.dev/)   
